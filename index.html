@@ -9,19 +9,37 @@
 <body>
     <header>Movie Suggestions</header>
     <h2>If you want movie suggestions, check the buttons below!</h2>
-    <br> <br>
+    
     <h2>Start by checking out these movies: 
         <a class="link" href="https://en.wikipedia.org/wiki/Harry_Potter">Harry Potter</a>, 
         <a class="link" href="https://en.wikipedia.org/wiki/The_Hunger_Games">The Hunger Games</a>, 
         <a class="link" href="https://en.wikipedia.org/wiki/How_the_Grinch_Stole_Christmas!">How the Grinch Stole Christmas!</a>
     </h2>
-    <p>
-        Click here for a random good movie to watch!
-    </p>
 
-<button onclick="showText()">Click Me</button>
+<br>
+<br>
 
-<!-- Hidden Text -->
-<p id="hiddenText" style="display: none;">Hello! You clicked the button.</p>
+<div class="interactive">
+    <h2>Choose a Genre:</h2>
+<!-- Dropdown to choose a topic -->
+ <div class="specific">
+<select id="topicSelect">
+  <option value="action">Action</option>
+  <option value="comedy">Comedy</option>
+  <option value="drama">Drama</option>
+</select>
+<br><br>
+
+<!-- Button -->
+<button onclick="chooseRandom()">Pick a Random Movie!</button>
+</div>
+<!-- Output -->
+<p id="output"></p>
+
+</div>
+
+</body>
+</html>
+
 </body>
 </html>
