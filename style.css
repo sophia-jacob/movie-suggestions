@@ -1,5 +1,4 @@
 body{
-    /* background-color: rgb(221, 47, 221); */
     background-color: #800080;
 }
 
@@ -50,13 +49,8 @@ h2{
     text-align: center;
     background-color: #efbbff;
     border-top: 2px solid #efbbff;
-    /* border-bottom: 2px solid pink; */
     height: 180px;
     border-radius: 10px;
-    /* width: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
  .specific {
